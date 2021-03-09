@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    background-color:#777777;
+  
+  }
+  nav {
+    flex: 80%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  button {
+      height: 40px;
+      background-color:#100f0f  ;
+  }
+div{
+    padding: 30px;
+}
+img{
+    padding: 10px;
+}
+.items{
+  padding-top: 40px;
+ color: black;
+}
+
+.items:hover{
+  color: white;
+}
+
+.dropdown-toggle::after { 
+  content: none; 
+  
+} 
+mat-icon{
+  color:white;
+}
+
+.dropdown-item:hover{
+background-color: lightgray;
+}
+.mat-raised-button{
+  background-color: black;
+  color:white;
+}
+
+.aligned-with-icon{
+  padding-top: 45px;
+}
+

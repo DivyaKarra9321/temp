@@ -1,0 +1,23 @@
+<div class="body">
+<div class="media" *ngFor="let c of course">
+  <div class="container">
+        <div class="column">
+             <h2 class="text-size">Course</h2>&nbsp;
+             <img [src]='c.image'>
+        </div>
+        <div class="media-body">
+            <h3>Title:</h3>
+            <p class="mt-text">{{c.title}}</p>
+            <h3>Description:</h3>
+            <p class="mt-text">{{c.description}}</p>
+            <h3>Duration:</h3>
+            <p class="mt-text">{{c.duration}}</p>
+       </div>
+       <div class="field">
+            <button class="btn start">Start</button> &nbsp;
+            <button class="btn certificate">Certificate</button>&nbsp;
+            <div class="row"> <h4>Status:<p> {{status}}</p></h4></div>
+      </div>
+  </div>
+</div>
+</div>

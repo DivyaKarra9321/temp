@@ -1,0 +1,28 @@
+<header>
+    <img src="../../assets/logo.png" height="100" width="200">
+    
+    <nav>
+      <div class="items">  
+        <mat-icon aria-hidden="false" aria-label="Example home icon" routerLink="/coursepage">home</mat-icon>  
+      </div >
+      <div class="items">
+        <mat-icon routerLink="/mycoursepage">list</mat-icon>
+      </div>
+      <div class="items">
+       <mat-icon routerLink="/cartpage">shopping_cart</mat-icon>
+     </div>
+
+   
+      <div class="dropdown">
+        <button mat-raised-button data-toggle="dropdown">
+          Profile <i class="fa fa-user" aria-hidden="true"></i></button>
+         
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit Profile</a>
+          <hr>
+          <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+        </div>
+      </div>  
+  
+    </nav>
+</header>
